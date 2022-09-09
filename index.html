@@ -6,41 +6,132 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <style>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+    * {
+        cursor: url(arrow.svg),auto;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
 
-        *{
-            padding: 0;
-            margin: 0;
-            
+    .waviy {
+        padding-top: 50px;
+        -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+        font-size: 40px;
+    }
+
+    .waviy span {
+        font-family: 'Alfa Slab One', cursive;
+        display: inline-block;
+        color: #fff;
+        /* text-transform: uppercase; */
+        animation: waviy 2s infinite;
+        animation-delay: calc(.1s * var(--i));
+    
+    }
+
+
+    @keyframes waviy {
+        0%,40%,100% {
+            transform: translateY(0)
         }
-        .mainDiv{
-            background-image: url(back.svg);
-            color: white;
-            height: 780px;
-            padding-top: 20%;
-            
+        20% {
+            transform: translateY(-20px)
         }
-
-        .myself{
-            background-color: rgba(79, 238, 79, 0.364);
-            width: 15%;
-            margin-left:5%;
-            border-radius: 10px;
-            padding: 5px;
-            /* margin-top: 20%; */
-        }
+    }
+</style>
 
 
 
-    </style>
+
+<style>
+    .section {
+        background-image: linear-gradient(to right bottom,rgba(5,8,16,.6),rgba(5,8,16,.6)),url(back.svg);
+        background-position: top;
+        background-size: cover;
+        height: 100vh;
+        
+        width: 100%;
+        text-align: center;
+    }
+
+    .bg1 {
+        height: 70vh;
+        background-color: black;
+    }
+
+    .bg2 {
+        height: 50vh;
+        background-image: -webkit-linear-gradient(30deg, #171d23 50%, #33383d 50%);height: 70vh;
+    }
+
+    .spacer {
+        height: 50vh;
+        background-color: rgba(0, 0, 0, 0.934);
+    }
+
+    nav{
+        position: sticky;
+        top: 0;
+    }
+
+</style>
+
+
 </head>
 <body>
 
-    <div class="mainDiv">
+    <!-- <nav>
+        <h1>hello</h1>
+    </nav> -->
 
-        <h4 class="myself">✌🏻 Hi There! I'm Dinesh</h4>
+    <div class="section">
+        <div class="waviy">
+            <span style="--i:1">H</span>
+            <span style="--i:2">i</span>
+            <span style="--i:3">&nbsp;</span>
+            <span style="--i:4">T</span>
+            <span style="--i:5">h</span>
+            <span style="--i:6">e</span>
+            <span style="--i:7">r</span>
+            <span style="--i:8">e</span>
+            <span style="--i:9">!</span>
+            <span style="--i:10">&nbsp;</span>
+            <span style="--i:11">D</span>
+            <span style="--i:12">i</span>
+            <span style="--i:13">n</span>
+            <span style="--i:15">e</span>
+            <span style="--i:16">s</span>
+            <span style="--i:17">h</span>
+        </div>
+    </div>
+      
+
+
+    <div class="bg1">
+        
+        
+    </div>
+      
+
+
+    <div class="bg2">
+
 
     </div>
+      
+
+
+    <div class="spacer">
+
+
+    </div>
+
     
 </body>
 </html>
+<script>
+
+
+</script>
