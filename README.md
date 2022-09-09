@@ -25,12 +25,6 @@
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=dineshjangid03&" alt="dineshjangid03" /></p>
 
 
-![GitHub Snake dark](github-snake-dark.svg#gh-dark-mode-only)
-
-![](./profile-3d-contrib/profile-night-green.svg)
-
-
-<hr>
 
 
 
