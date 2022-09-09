@@ -86,7 +86,7 @@
     } */
     .box111{
         width: 60%;
-        font-family: 'Exo Space', sans-serif;
+        font-family: 'Exo Space';
         font-size: 28px;
         color: #f5f5f5;
         text-align: left;
@@ -104,7 +104,7 @@
     }
 
     .rbtn{
-        font-family: 'CYBORG', sans-serif;
+        font-family: 'CYBORG';
         background-color: rgb(8,156,8); 
         padding: .8rem 2.5rem; 
         font-size: 20px;    
