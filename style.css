@@ -1,5 +1,5 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap'); */
-@import url('http://fonts.cdnfonts.com/css/exo-space');
+/* @import url('http://fonts.cdnfonts.com/css/exo-space'); */
 /* @import url('http://fonts.cdnfonts.com/css/cyborg-2'); */
     * {
         cursor: url(arrow.svg),auto;
@@ -15,7 +15,7 @@
     }
 
     .waviy span {
-        font-family: 'Alfa Slab One', cursive;
+        /* font-family: 'Alfa Slab One', cursive; */
         display: inline-block;
         color: #fff;
         /* text-transform: uppercase; */
@@ -86,7 +86,7 @@
     } */
     .box111{
         width: 60%;
-        font-family: 'Exo Space', sans-serif;
+        /* font-family: 'Exo Space', sans-serif; */
         font-size: 28px;
         color: #f5f5f5;
         text-align: left;
@@ -104,7 +104,7 @@
     }
 
     .rbtn{
-        font-family: 'CYBORG', sans-serif;
+        /* font-family: 'CYBORG', sans-serif; */
         background-color: rgb(8,156,8); 
         padding: .8rem 2.5rem; 
         font-size: 20px;    
