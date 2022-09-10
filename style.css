@@ -1,8 +1,28 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap'); */
 /* @import url('http://fonts.cdnfonts.com/css/exo-space'); */
 /* @import url('http://fonts.cdnfonts.com/css/cyborg-2'); */
+
+@font-face {
+    font-family: 'Exo Space';
+    src: url('font/Exo_space.ttf');
+}
+@font-face {
+    font-family: 'Alfa Slab One';
+    src: url('font/AlfaSlabOne-Regular.ttf');
+}
+@font-face {
+    font-family: 'CYBORG';
+    src: url('font/Cyborg.ttf');
+}
+
+
+
+
+/* *{
+    font-family: 'Exo Space';
+} */
     * {
-        cursor: url(arrow.svg),auto;
+        cursor: url(arrow/arrow.svg),auto;
         padding: 0;
         margin: 0;
         box-sizing: border-box;
@@ -15,7 +35,7 @@
     }
 
     .waviy span {
-        /* font-family: 'Alfa Slab One', cursive; */
+        font-family: 'Alfa Slab One';
         display: inline-block;
         color: #fff;
         /* text-transform: uppercase; */
@@ -42,7 +62,7 @@
 
 
     .section {
-        background-image: linear-gradient(to right bottom,rgba(5,8,16,.6),rgba(5,8,16,.6)),url(back.svg);
+        background-image: linear-gradient(to right bottom,rgba(5,8,16,.6),rgba(5,8,16,.6)),url(image/back.svg);
         background-position: top;
         background-size: cover;
         height: 100vh;
@@ -86,7 +106,7 @@
     } */
     .box111{
         width: 60%;
-        /* font-family: 'Exo Space', sans-serif; */
+        font-family: 'Exo Space';
         font-size: 28px;
         color: #f5f5f5;
         text-align: left;
@@ -104,7 +124,7 @@
     }
 
     .rbtn{
-        /* font-family: 'CYBORG', sans-serif; */
+        font-family: 'CYBORG';
         background-color: rgb(8,156,8); 
         padding: .8rem 2.5rem; 
         font-size: 20px;    
@@ -126,7 +146,7 @@
     }
 
     .rbtn:hover, .rbtn>a:hover{
-        cursor: url(arrow1.svg),auto;
+        cursor: url(arrow/arrow1.svg),auto;
         color: red;
     }
     .rbtn>a{
