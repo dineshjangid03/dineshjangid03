@@ -4,18 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dinesh's Portfolio</title>
+    <link rel="icon" href="image/logo.jpg">
     <link rel="stylesheet" href="style.css">
+
+
+    <style>
+        .header {
+            position: fixed;
+            top: 0;
+            z-index: 1;
+            width: 100%;
+            /* background-color: #f1f1f1; */
+        }
+
+        /* .progress-container {
+            width: 100%;
+            height: 20px;
+            background: #ccc;
+            background: transparent;
+        } */
+
+        .progress-bar {
+            height: 10px;
+            background: #04AA6D;
+            /* background-color: red; */
+            width: 0%;
+        }
+
+
+    </style>
 
 </head>
 <body>
+
+    <div class="header">
+        <!-- <h2>Scroll Indicator</h2> -->
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+    </div>
 
     <!-- <nav>
         <h1>hello</h1>
     </nav> -->
 
-    <div class="section box1">
-        <div class="waviy">
+    <div class="box1" id="box1"  onscroll="myFunction()">
+        <div class="box10">
             <span style="--i:1;color: #f5f5f5;">H</span>
             <span style="--i:2;color: #f5f5f5;">i</span>
             <span style="--i:3">&nbsp;</span>
@@ -37,49 +72,183 @@
         <div class="box11">
 
             <div class="box111">
-                <h2 class="wlcm_note">Welcome to my portfolio !</h2>
-                <h2>I am a passionate <span style="color: rgb(8, 156, 8);"> Full Stack Web Developer </span>who focus on writing clean and user friendly applications</h2>
+                
+                <h2 class="wlcm_note">Welcome to my portfolio!</h2>
+                
+                <h2 class="some_about">I am a passionate <span style="color: rgb(8, 156, 8);"> Full Stack Web Developer </span>who focus on writing clean and user friendly applications</h2>
+                
+                <div class="btn_div">
+                    <button class="rbtn"><a download="" href="pdf/DINESH_KUMAR_Resume.pdf">Resume</a></button>
+                </div>
+            
             </div>
 
             <div class="box112">
                 <img src="image/imag.png" alt="">
             </div>
 
+            
+
 
         </div>
 
-        <div>
-            <button class="rbtn"><a download="" href="pdf/DINESH_KUMAR_Resume.pdf">Resume</a></button>
+        
+
+        
+    </div>
+      
+
+
+    <div class="box2" id="box2">
+
+        <div class="box21">
+            <h1>
+                TOOLING
+            </h1>
+        </div>
+
+        <div class="box22">
+
+            <div class="tool" style="--i:1;">
+                <div>
+                    <img src="logo/java_logo.png" alt="">
+                </div>
+                <div>
+                    JAVA
+                </div>
+            </div>
+
+
+            <div class="tool" style="--i:2;">
+                <div>
+                    <img src="logo/spring_logo.png" alt="">
+                </div>
+                <div>
+                    Spring Boot
+                </div>
+            </div>
+
+
+            <div class="tool" style="--i:3;">
+                <div>
+                    <img src="logo/sql_logo.png" alt="">
+                </div>
+                <div>
+                    SQL
+                </div>
+            </div>
+
+
+            <div class="tool" style="--i:4;">
+                <div>
+                    <img src="logo/aws_logo.png" alt="">
+                </div>
+                <div>
+                    AWS
+                </div>
+            </div>
+
+
+            <div class="tool" style="--i:5;">
+                <div>
+                    <img src="logo/hibernate_logo.png" alt="">
+                </div>
+                <div>
+                    Hibernate
+                </div>
+            </div>
+
+
+            <div class="tool" style="--i:6;">
+                <div>
+                    <img src="logo/eclipse_logo.png" alt="">
+                </div>
+                <div>
+                    Eclipse
+                </div>
+            </div>
+
+
+            <div class="tool" style="--i:7;">
+                <div>
+                    <img src="logo/Git_logo.png" alt="">
+                </div>
+                <div>
+                    Git
+                </div>
+            </div>
+
+
+            <div class="tool" style="--i:8;">
+                <div>
+                    <img src="logo/html_logo.png" alt="">
+                </div>
+                <div>
+                    HTML
+                </div>
+            </div>
+
+
+            <div class="tool" style="--i:9;">
+                <div>
+                    <img src="logo/css_logo.webp" alt="">
+                </div>
+                <div>
+                    CSS
+                </div>
+            </div>
+
+
+            <div class="tool" style="--i:10;">
+                <div>
+                    <img src="logo/js_logo2.jpg" alt="">
+                </div>
+                <div>
+                    Java Script
+                </div>
+            </div>
+
+
         </div>
 
         
-    </div>
-      
-
-
-    <div class="bg1">
         
         
     </div>
       
 
 
-    <div class="bg2">
+    <div class="box3" id="box3">
 
 
     </div>
       
 
 
-    <div class="spacer">
+    <div class="box4" id="box4">
 
 
     </div>
+
+    <a href="#box1" id="bb1"></a>
+    <a href="#box2" id="bb2"></a>
+    <a href="#box3" id="bb3"></a>
+    <a href="#box4" id="bb4"></a>
 
     
 </body>
 </html>
 <script>
 
+window.onscroll = function() {
+    myFunction()
+};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
 
 </script>
