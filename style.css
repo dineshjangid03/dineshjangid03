@@ -25,6 +25,11 @@
         box-sizing: border-box; 
     }
 
+    a{
+        cursor: url(arrow/arrow1.svg),auto; 
+        text-decoration: none;
+        color: white;
+    }
 
 
 
@@ -140,9 +145,12 @@
     .box2{
         font-family: 'CYBORG';
         margin-top: 0;
-        height: 70vh;
-        background-color: rgba(0, 0, 0, 0.942);
-        padding-top: 40px;
+        /* height: 70vh; */
+        /* background-color: rgba(0, 0, 0, 0.942); */
+        background-image:linear-gradient(to right, rgb(2, 34, 11),rgb(0, 0, 0));
+        padding-top: 30px;
+        padding-bottom: 30px;
+        
     }
     .box21{
         width: 140px;
@@ -151,7 +159,7 @@
     }
 
     .box21>h1{
-        transform: rotate(3.6deg);
+        transform: rotate(-3.6deg);
         border-radius: 12px;
         color: #14e956;
         border: 4px solid #14e956;
@@ -241,24 +249,65 @@
     /* ====================== css for box3 ========================= */
 
     .box3 {
-        height: 50vh;
-        background-image: -webkit-linear-gradient(30deg, #171d23 50%, #33383d 50%);height: 70vh;
+        font-family: 'CYBORG';
+        padding: 40px;
+        /* padding-bottom: 0; */
+        /* background-image: -webkit-linear-gradient(30deg, #171d23 50%, #33383d 50%); */
+        background-image:linear-gradient(to right, rgb(2, 34, 11),rgb(0, 0, 0));
     }
 
+    .box31{
+        width: 170px;
+        /* margin: auto; */
+        text-align: center;
+        
+    }
 
+    .box31>h1{
+        padding: 5px;
+        transform: rotate(-3.6deg);
+        border-radius: 12px;
+        color: #14e956;
+        border: 4px solid #14e956;
+        text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
 
+    .box32{
+        margin-top: 30px;
+        padding: 20px;
+        /* border: 1px solid red; */
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+        gap: 40px;
+        background: transparent;
+    }
+    .box32>div{
+        /* border: 1px solid red; */
+        /* height: 300px; */
+        /* box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px; */
+        /* background: transparent; */
+        padding: 10px;
+        border-radius: 10px;
+    }
 
+    .proimg{
+        border: 3px solid green;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        max-height: 100%;
+        max-width: 100%;
+        border-radius: 10px;
+        /* transition: transform .5s ease; */
+        transition: 1s ease;
+    }
 
-
-
-
+    
 
     /* ====================== css for box4 ========================= */
     /* ====================== css for box4 ========================= */
 
     .box4 {
         height: 50vh;
-        background-color: rgba(0, 0, 0, 0.934);
+        background-image:linear-gradient(to right, rgb(2, 34, 11),rgb(0, 0, 0));
     }
 
     nav{
@@ -291,7 +340,7 @@
             margin-top: 40px;
         }
         .box111{
-            width: 90%;
+            width: 100%;
         }
         .some_about{
             font-size: 25px;
@@ -301,9 +350,6 @@
             display: none;
         }
 
-        .box2{
-            height: 600px;
-        }
     }
 
     @media screen and (min-width: 521px) and (max-width: 730px){
@@ -320,14 +366,64 @@
             margin-top: 40px;
         }
         .box111{
-            width: 85%;
+            width: 95%;
         }
 
         .box112>img{
             display: none;
         }
 
-        .box2{
-            height: 500px;
-        }
     }
+
+
+
+
+
+
+    .flip-card {
+        background-color: transparent;
+        width: 300px;
+        height: 200px;
+        border: 1px solid #f1f1f1;
+        perspective: 1000px; /* Remove this if you don't want the 3D effect */
+      }
+      
+      /* This container is needed to position the front and back side */
+      .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+      }
+      
+      /* Do an horizontal flip when you move the mouse over the flip box container */
+      .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+      }
+      
+      /* Position the front and back side */
+      .flip-card-front, .flip-card-back {
+        border-radius: 10px;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden; /* Safari */
+        backface-visibility: hidden;
+      }
+      
+      /* Style the front side (fallback if image is missing) */
+      .flip-card-front {
+        background-color: #bbb;
+        color: black;
+      }
+      
+      /* Style the back side */
+      .flip-card-back {
+        background-color: rgb(11, 60, 19);
+        color: white;
+        transform: rotateY(180deg);
+        border-radius: 10px;
+        border: 2px solid white;
+      }
