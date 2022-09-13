@@ -19,18 +19,21 @@
     font-family: 'Exo Space';
 } */
     * {
-        cursor: url(arrow/arrow.svg),auto;
+        /* cursor: url(arrow/arrow.svg),auto; */
+        cursor: url(arrow/gray24.png),auto;
         padding: 0;
         margin: 0;
         box-sizing: border-box; 
     }
 
     a{
-        cursor: url(arrow/arrow1.svg),auto; 
+        /* cursor: url(arrow/hand26.png),auto;  */
         text-decoration: none;
-        color: white;
+        /* color: white; */
     }
-
+    ::-webkit-scrollbar {
+        display: none;
+    }
 
 
 
@@ -40,10 +43,6 @@
     /* ====================== css for box1 ========================= */
 
     .box1 {
-        background-image: linear-gradient(to right bottom,rgba(5,8,16,.6),rgba(5,8,16,.6)),url(image/back.svg);
-        background-position: top;
-        background-size: cover;
-        
         width: 100%;
         text-align: center;
         margin-bottom: 0;
@@ -56,9 +55,8 @@
     }
 
     .box10 span {
-        font-family: 'Alfa Slab One';
+        font-family: 'Exo Space';
         display: inline-block;
-        color: #fff;
         /* text-transform: uppercase; */
         animation: box10 2s infinite;
         animation-delay: calc(.1s * var(--i));
@@ -84,7 +82,6 @@
         width: 60%;
         font-family: 'Exo Space';
         font-size: 28px;
-        color: #f5f5f5;
         text-align: left;
         padding: 40px;
     }
@@ -106,35 +103,31 @@
 
     .rbtn{
         font-family: 'CYBORG';
-        background-color: rgb(8,156,8); 
         padding: .6rem 1.5rem; 
-        font-size: 20px;    
-        background: #14e956;
-        background-color: #14e956;
-        background-image: linear-gradient(315deg,#14e956,#72f29a);
+        font-size: 20px;
+        background-color: #001C55;    
         border: none;
         border-radius: 7px;
-        box-shadow: 9px 7px 32px -11px rgb(20 233 86 / 74%);
+        box-shadow: 9px 7px 32px -11px #72351C;
         font-size: 1.5rem;
         font-weight: 900;   
         transition: all .3s ease-in-out 0s; 
-        margin-bottom: 50px;  
-        margin-top: 50px;              
+        margin-top: 50px;  
+                   
     }
 
     .rbtn:hover{
-        border: 6px solid white;
-        box-shadow: #14e956 0px 3px 29px 0px;
+        border: 3px solid #635e87;
+        box-shadow: #001C55 0px 3px 29px 0px;
         
     }
 
     .rbtn:hover, .rbtn>a:hover{
-        cursor: url(arrow/arrow1.svg),auto;
-        color: red;
+        cursor: url(arrow/h30.png),auto;
     }
     .rbtn>a{
         text-decoration: none;
-        color: black;
+        color: #E0E0E0; 
     }
 
 
@@ -147,7 +140,12 @@
         margin-top: 0;
         /* height: 70vh; */
         /* background-color: rgba(0, 0, 0, 0.942); */
-        background-image:linear-gradient(to right, rgb(2, 34, 11),rgb(0, 0, 0));
+        /* background-image:linear-gradient(to right, rgb(2, 34, 11),rgb(0, 0, 0)); */
+        /* background-image: linear-gradient(to right,rgba(0, 0, 0, 0.771),rgba(8, 20, 54, 0.6)),url(image/back4.jpg); */
+        /* background: linear-gradient(#26104594,#3e11117d, #1f1646a3 ),url(image/back4.jpg); */
+        /* background-position: top;
+        background-size: cover; */
+
         padding-top: 30px;
         padding-bottom: 30px;
         
@@ -161,46 +159,70 @@
     .box21>h1{
         transform: rotate(-3.6deg);
         border-radius: 12px;
-        color: #14e956;
-        border: 4px solid #14e956;
-        text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+        /* color: #535461;
+        border: 4px solid #535461; */
+        color: #001C55;
+        border: 4px solid #001C55;
+
+        /* text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
     }
 
     .box22{
-        width: 60%;
+        width: 70%;
         margin: auto;
         margin-top: 50px;
-        background-color: #0a772d;
+        background-color: #001C55;
+        border: 1px solid #989292;
+        /* box-shadow: rgba(0, 0, 0, 0.1) 10px 20px 24px, rgba(0, 0, 0, 0.1) 10px 26px 56px, rgba(0, 0, 0, 0.1) 10px 34px 80px; */
+        box-shadow: rgba(0, 0, 0, 0.784) 0px 22px 70px 4px;
         border-radius: 12px;
-        color: white;
+        /* color: white; */
+        
 
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        padding: 0.7rem;
+        padding: 2rem;
         backdrop-filter: blur(5px);
     }
 
-    .box22>div{
-        align-items: center;
-        text-align: center;
-        background: #021709;
+
+    .tool {
+
+        border: none;
+        border-top: 3px solid rgb(126, 133, 126);
         border-radius: 8px;
+
+        font-size: 1em;
+        color: #001C55;
+        font-weight: bold;
+        background: white;
+
         display: flex;
-        flex: 0 1 18%;
+        flex: 0 1 15%;
         height: 60px;
         justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
         margin: 1%;
         padding: 5px;
+
+        transform-origin: 50% 5em;
     }
+
+    
+
+
 
     .box22>div>div>img{
         max-width: 40px;
+        margin-right: 5px;
     }
 
     .tool {
         animation: wiggle 2s linear infinite;
-        animation-delay: calc(.1s * var(--i));
+        animation-delay: calc(.3s * var(--i));
       }
       
       @keyframes wiggle {
@@ -227,15 +249,7 @@
         }
       }
       
-      .tool {
-        background: #444;
-        background: linear-gradient(top, #555, #333);
-        border: none;
-        border-top: 3px solid rgb(126, 133, 126);
-        color: #fff;
-        font-size: 1em;
-        transform-origin: 50% 5em;
-      }
+      
 
 
 
@@ -251,9 +265,6 @@
     .box3 {
         font-family: 'CYBORG';
         padding: 40px;
-        /* padding-bottom: 0; */
-        /* background-image: -webkit-linear-gradient(30deg, #171d23 50%, #33383d 50%); */
-        background-image:linear-gradient(to right, rgb(2, 34, 11),rgb(0, 0, 0));
     }
 
     .box31{
@@ -267,31 +278,26 @@
         padding: 5px;
         transform: rotate(-3.6deg);
         border-radius: 12px;
-        color: #14e956;
-        border: 4px solid #14e956;
-        text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        color: #001C55;
+        border: 4px solid #001C55;
+        font-weight: bolder;
     }
 
     .box32{
         margin-top: 30px;
         padding: 20px;
-        /* border: 1px solid red; */
         display: grid;
         grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
         gap: 40px;
         background: transparent;
     }
     .box32>div{
-        /* border: 1px solid red; */
-        /* height: 300px; */
-        /* box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px; */
-        /* background: transparent; */
         padding: 10px;
         border-radius: 10px;
     }
 
     .proimg{
-        border: 3px solid green;
+        border: 3px solid #72351C;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         max-height: 100%;
         max-width: 100%;
@@ -307,7 +313,6 @@
 
     .box4 {
         height: 50vh;
-        background-image:linear-gradient(to right, rgb(2, 34, 11),rgb(0, 0, 0));
     }
 
     nav{
@@ -325,7 +330,7 @@
 
     @media screen and (min-width: 200px) and (max-width: 520px) { 
         .box10>span{
-            font-size: 23px;
+            font-size: 20px;
         }
 
         .wlcm_note{
@@ -348,6 +353,12 @@
 
         .box112>img{
             display: none;
+        }
+        .tool{
+            margin-top: 10px;
+        }
+        .box22{
+            width: 85%;
         }
 
     }
@@ -373,18 +384,25 @@
             display: none;
         }
 
+        .tool{
+            margin-top: 10px;
+        }
+        .box22{
+            width: 85%;
+        }
+
     }
 
 
 
 
-
+/* =========flip animation====== */
 
     .flip-card {
         background-color: transparent;
         width: 300px;
         height: 200px;
-        border: 1px solid #f1f1f1;
+        border: 1px solid #001C55;
         perspective: 1000px; /* Remove this if you don't want the 3D effect */
       }
       
@@ -421,9 +439,52 @@
       
       /* Style the back side */
       .flip-card-back {
-        background-color: rgb(11, 60, 19);
-        color: white;
+        background-color: #bbb;
+        color: #001C55;
         transform: rotateY(180deg);
         border-radius: 10px;
-        border: 2px solid white;
+        border: 2px solid #001C55;
       }
+
+
+        /* body {
+            background: #eee;
+        } */
+
+        /* ====hanging animation======= */
+.swing {
+    animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center -20px;
+    float:left;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.swing img {
+    border: 5px solid #f8f8f8;
+    display: block;
+}
+.swing:after{
+    content: '';
+    position: absolute;  
+    width: 20px; height: 20px;  
+    border: 1px solid #999;
+    top: -10px; left: 50%;
+    z-index: 0;
+    border-bottom: none;
+    border-right: none;
+    transform: rotate(45deg);
+}
+/* nail */
+.swing:before{
+    content: '';
+    position: absolute;
+    width: 5px; height: 5px;
+    top: -14px;left: 54%;
+    z-index: 5;
+    border-radius: 50% 50%;
+    background: #000;
+}
+ 
+@keyframes swing {
+    0% { transform: rotate(3deg); }
+    100% { transform: rotate(-3deg); }
+}
