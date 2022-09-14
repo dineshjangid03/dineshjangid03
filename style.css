@@ -14,10 +14,6 @@
 
 
 
-
-/* *{
-    font-family: 'Exo Space';
-} */
     * {
         /* cursor: url(arrow/arrow.svg),auto; */
         cursor: url(arrow/gray24.png),auto;
@@ -138,13 +134,6 @@
     .box2{
         font-family: 'CYBORG';
         margin-top: 0;
-        /* height: 70vh; */
-        /* background-color: rgba(0, 0, 0, 0.942); */
-        /* background-image:linear-gradient(to right, rgb(2, 34, 11),rgb(0, 0, 0)); */
-        /* background-image: linear-gradient(to right,rgba(0, 0, 0, 0.771),rgba(8, 20, 54, 0.6)),url(image/back4.jpg); */
-        /* background: linear-gradient(#26104594,#3e11117d, #1f1646a3 ),url(image/back4.jpg); */
-        /* background-position: top;
-        background-size: cover; */
 
         padding-top: 30px;
         padding-bottom: 30px;
@@ -284,9 +273,9 @@
 
     .box32{
         margin-top: 30px;
-        padding: 50px;
+        padding: 20px;
         display: grid;
-        grid-template-columns: repeat(auto-fill,minmax(370px,1fr));
+        grid-template-columns: repeat(auto-fill,minmax(360px,1fr));
         gap: 40px;
         background: transparent;
     }
@@ -305,150 +294,11 @@
         transition: 1s ease;
     }
 
-    
-
-    /* ====================== css for box4 ========================= */
-    /* ====================== css for box4 ========================= */
-
-    .box4 {
-        padding: 40px;
-        font-family: 'CYBORG';
-        color: #001C55;
-    }
-    .box41{
-        width: 190px;
-        /* margin: auto; */
-        text-align: center;  
-    }
-    .box41>h1{
-        padding: 5px;
-        transform: rotate(-3.6deg);
-        border-radius: 12px;
-        color: #001C55;
-        border: 4px solid #001C55;
-        font-weight: bolder;
-    }
-
-    .skills-list{
-        display: grid;
-        grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-        grid-gap: 40px;
-        margin-top: 50px;
-    }
-    .skills-list div{
-        background : #E0E0E0;
-        padding: 40px;
-        font-size: 13px;
-        font-weight: 300;
-        border-radius: 10px;
-        transition: background 0.5s,transform 0.5s;
-    }
-    .skills-list div i{
-        font-size: 50px;
-        margin-bottom: 30px;
-    }
-    .skills-list div h2{
-        font-size: 20px;
-        font-weight: bold;
-        margin-bottom: 15px;
-    }
-    .skills-list div:hover{
-        background: #001C55;
-        color: #E0E0E0;
-        transform: translateY(-10px);
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    @media screen and (min-width: 200px) and (max-width: 520px) { 
-        .box10>span{
-            font-size: 20px;
-        }
-
-        .wlcm_note{
-            font-size: 20px;
-        }
-
-        .box11{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin-top: 40px;
-        }
-        .box111{
-            width: 100%;
-        }
-        .some_about{
-            font-size: 25px;
-        }
-
-        .box112>img{
-            display: none;
-        }
-        .tool{
-            margin-top: 10px;
-        }
-        .box22{
-            width: 85%;
-        }
-
-    }
-
-    @media screen and (min-width: 521px) and (max-width: 730px){
-
-        .box10>span{
-            font-size: 28px;
-        }
-
-        .box11{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin-top: 40px;
-        }
-        .box111{
-            width: 95%;
-        }
-
-        .box112>img{
-            display: none;
-        }
-
-        .tool{
-            margin-top: 10px;
-        }
-        .box22{
-            width: 85%;
-        }
-
-    }
-
-
-
-
-/* =========flip animation====== */
+    /* =========flip animation====== */
 
     .flip-card {
         background-color: transparent;
-        width: 370px;
+        width: 360px;
         height: 245px;
         border: 1px solid #001C55;
         perspective: 1000px; /* Remove this if you don't want the 3D effect */
@@ -511,11 +361,9 @@
         justify-content: center;
         gap: 30px;
       }
-      /* .flip-card-back>p:nth-child(2){
-        margin-bottom: 10px;
-      } */
 
 
+      
 
         /* ====hanging animation======= */
 .swing {
@@ -554,3 +402,182 @@
     0% { transform: rotate(3deg); }
     100% { transform: rotate(-3deg); }
 }
+
+    
+
+    /* ====================== css for box4 ========================= */
+    /* ====================== css for box4 ========================= */
+
+    .box4 {
+        padding: 40px;
+        font-family: 'CYBORG';
+        color: #001C55;
+    }
+    .box41{
+        width: 190px;
+        /* margin: auto; */
+        text-align: center;  
+    }
+    .box41>h1{
+        padding: 5px;
+        transform: rotate(-3.6deg);
+        border-radius: 12px;
+        color: #001C55;
+        border: 4px solid #001C55;
+        font-weight: bolder;
+    }
+
+    .skills-list{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+        grid-gap: 40px;
+        margin-top: 50px;
+    }
+    .skills-list div{
+        background : #E0E0E0;
+        padding: 40px;
+        font-size: 13px;
+        font-weight: 300;
+        border-radius: 10px;
+        transition: background 0.5s,transform 0.5s;
+    }
+    .skills-list div i{
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+    .skills-list div h2{
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    .skills-list div:hover{
+        background: #001C55;
+        color: #E0E0E0;
+        transform: translateY(-10px);
+    }
+
+
+
+
+
+    .box5{
+        height: 400px;
+    }
+
+
+
+/* =============media query============= */
+
+    @media screen and (min-width: 200px) and (max-width: 399px){
+        .box10>span{
+            font-size: 15px;
+        }
+        .wlcm_note{
+            font-size: 18px;
+        }
+
+        .box11{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .box111{
+            width: 110%;
+        }
+        .some_about{
+            font-size: 20px;
+        }
+
+        .box112>img{
+            display: none;
+        }
+        .tool{
+            margin-top: 10px;
+        }
+        .box22{
+            width: 95%;
+        }
+        .box3{
+            padding: 2px;
+        }
+        .box32{
+            grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+        }
+        .flip-card{
+            width: 350px;
+        }
+    }
+
+    @media screen and (min-width: 400px) and (max-width: 520px) { 
+        .box10>span{
+            font-size: 17px;
+        }
+
+        .wlcm_note{
+            font-size: 20px;
+        }
+
+        .box11{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 40px;
+        }
+        .box111{
+            width: 100%;
+        }
+        .some_about{
+            font-size: 25px;
+        }
+
+        .box112>img{
+            display: none;
+        }
+        .tool{
+            margin-top: 10px;
+        }
+        .box22{
+            width: 85%;
+        }
+        .box3{
+            padding: 5px;
+        }
+
+    }
+
+    @media screen and (min-width: 521px) and (max-width: 730px){
+
+        .box10>span{
+            font-size: 28px;
+        }
+
+        .box11{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 40px;
+        }
+        .box111{
+            width: 95%;
+        }
+
+        .box112>img{
+            display: none;
+        }
+
+        .tool{
+            margin-top: 10px;
+        }
+        .box22{
+            width: 85%;
+        }
+
+    }
+
+
+
+
