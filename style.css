@@ -275,7 +275,7 @@
         margin-top: 30px;
         padding: 20px;
         display: grid;
-        grid-template-columns: repeat(auto-fill,minmax(360px,1fr));
+        grid-template-columns: repeat(auto-fill,minmax(370px,1fr));
         gap: 40px;
         background: transparent;
     }
@@ -298,7 +298,7 @@
 
     .flip-card {
         background-color: transparent;
-        width: 360px;
+        width: 370px;
         height: 245px;
         border: 1px solid #001C55;
         perspective: 1000px; /* Remove this if you don't want the 3D effect */
