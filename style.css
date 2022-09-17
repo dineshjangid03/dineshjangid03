@@ -32,6 +32,117 @@
     }
 
 
+    /* ====================== css for box0 ========================= */
+    /* ====================== css for box0 ========================= */
+
+    .box0{
+        padding: 30px;
+        font-family: 'Exo Space';
+        /* font-family: 'CYBORG'; */
+    }
+
+    .box01{
+        width: fit-content;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .box01>h1{
+        padding: 5px;
+        transform: rotate(-3.6deg);
+        border-radius: 12px;
+        color: #001C55;
+        border: 4px solid #001C55;
+        font-weight: bolder;
+    }
+
+    #about{
+        /* padding: 80px 0; */
+        color: #001C55; 
+    }
+    .row{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .about-col-1{
+        flex-basis: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-col-1 img{
+        max-height: 80%;
+        max-width: 80%;
+        border-radius: 50%;
+        border: 3px solid #72351C;
+    }
+    .about-col-2{
+        flex-basis: 70%;
+    }
+    .about-col-2>p{
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .tab-title{
+        display: flex;
+        margin: 20px 0 40px;
+    }
+    .tab-title>p{
+        font-weight: bold;
+    }
+    .tab-links{
+        margin-right: 50px;
+        font-size: 20px;
+        font-weight: 500;
+        cursor: url(arrow/h30.png),auto;
+        position: relative;
+    }
+    .tab-links::after{
+        content: '';
+        width: 0;
+        height: 3px;
+        background: #72351C;
+        position: absolute;
+        left: 0;
+        bottom: -8px;
+        transition: 0.7s;
+    }
+    .tab-links.active-link::after{
+        width: 100%;
+    }
+    .tab-contents ul li{
+        list-style: none;
+        margin: 10px 0;
+    }
+            
+    .tab-contents ul li span{
+        color: #72351C;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .tab-contents{
+        display: none;
+    }
+    .tab-contents.active-tab{
+        display: block;
+    }
+    .tab-contents ul li .co{
+        color: #001C55;
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    
+    .aboutSkill{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(310px,1fr));
+    }
+    
+
+
+
+
+
 
 
 
@@ -56,6 +167,7 @@
         /* text-transform: uppercase; */
         animation: box10 2s infinite;
         animation-delay: calc(.1s * var(--i));
+        color: #001C55;
     
     }
 
@@ -71,7 +183,7 @@
 
     .box11{
         display: flex;
-        margin-top: 80px;
+        margin-top: 40px;
     }
 
     .box111{
@@ -80,6 +192,7 @@
         font-size: 28px;
         text-align: left;
         padding: 40px;
+        color: #001C55;
     }
     .box112{
         width: 40%;
@@ -100,7 +213,7 @@
     .rbtn{
         font-family: 'CYBORG';
         padding: .6rem 1.5rem; 
-        font-size: 20px;
+        font-size: 18px;
         background-color: #001C55;    
         border: none;
         border-radius: 7px;
@@ -108,8 +221,8 @@
         font-size: 1.5rem;
         font-weight: 900;   
         transition: all .3s ease-in-out 0s; 
-        margin-top: 50px;  
-                   
+        margin-top: 20px;  
+        transform: rotate(-3.6deg);           
     }
 
     .rbtn:hover{
@@ -132,7 +245,8 @@
     /* ====================== css for box2 ========================= */
 
     .box2{
-        font-family: 'CYBORG';
+        /* font-family: 'CYBORG'; */
+        font-family: 'Exo Space';
         margin-top: 0;
 
         padding-top: 30px;
@@ -140,7 +254,7 @@
         
     }
     .box21{
-        width: 140px;
+        width: fit-content;
         margin: auto;
         text-align: center;
     }
@@ -148,7 +262,7 @@
     .box21>h1{
         transform: rotate(-3.6deg);
         border-radius: 12px;
-
+        padding: 0 10px;
         /* color: #535461;
         border: 4px solid #535461; */
         color: #001C55;
@@ -251,13 +365,16 @@
     /* ====================== css for box3 ========================= */
 
     .box3 {
-        font-family: 'CYBORG';
-        padding: 40px;
+        /* font-family: 'CYBORG'; */
+        font-family: 'Exo Space';
+        /* padding: 40px; */
+        width: 99%;
+        margin: auto;
     }
 
     .box31{
-        width: 170px;
-        /* margin: auto; */
+        width: fit-content;
+        margin: auto;
         text-align: center;
         
     }
@@ -275,8 +392,8 @@
         margin-top: 30px;
         padding: 20px;
         display: grid;
-        grid-template-columns: repeat(auto-fill,minmax(370px,1fr));
-        gap: 40px;
+        grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+        gap: 30px;
         background: transparent;
     }
     .box32>div{
@@ -298,7 +415,8 @@
 
     .flip-card {
         background-color: transparent;
-        width: 370px;
+        width: 350px;
+        margin: auto;
         height: 245px;
         border: 1px solid #001C55;
         perspective: 1000px; /* Remove this if you don't want the 3D effect */
@@ -410,12 +528,13 @@
 
     .box4 {
         padding: 40px;
-        font-family: 'CYBORG';
+        /* font-family: 'CYBORG'; */
+        font-family: 'Exo Space';
         color: #001C55;
     }
     .box41{
         width: 190px;
-        /* margin: auto; */
+        margin: auto;
         text-align: center;  
     }
     .box41>h1{
@@ -578,6 +697,21 @@
 
     }
 
+    @media only screen and (max-width: 730px){
+    .about-col-1,.about-col-2{
+        flex-basis: 100%;
+    }
+    .about-col-1{
+        margin-bottom: 30px;
+    }
+    .about-col-2{
+        font-size: 14px;
+    }
+    .tab-links{
+        font-size: 16px;
+        margin-right: 20px;
+    }
 
+    }
 
 
