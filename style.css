@@ -36,7 +36,8 @@
     /* ====================== css for box0 ========================= */
 
     .box0{
-        padding: 30px;
+        /* background-color: #E0E0E0; */
+        padding: 0 30px;
         font-family: 'Exo Space';
         /* font-family: 'CYBORG'; */
     }
@@ -45,7 +46,8 @@
         width: fit-content;
         margin: auto;
         text-align: center;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
+        padding-top: 20px;
     }
     .box01>h1{
         padding: 5px;
@@ -86,7 +88,7 @@
     }
     .tab-title{
         display: flex;
-        margin: 20px 0 40px;
+        margin: 20px 0 20px;
     }
     .tab-title>p{
         font-weight: bold;
@@ -106,7 +108,10 @@
         position: absolute;
         left: 0;
         bottom: -8px;
-        transition: 0.7s;
+        transition: 0.7s; 
+    }
+    .active-link{
+        color: #72351C;
     }
     .tab-links.active-link::after{
         width: 100%;
@@ -129,7 +134,7 @@
     }
     .tab-contents ul li .co{
         color: #001C55;
-        font-size: 14px;
+        font-size: 15px;
         letter-spacing: 1px;
     }
     
@@ -152,13 +157,13 @@
     .box1 {
         width: 100%;
         text-align: center;
-        margin-bottom: 0;
+        margin-bottom: -20px;
     }
 
     .box10 {
-        padding-top: 50px;
+        padding-top: 20px;
         -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .box10 span {
@@ -183,7 +188,7 @@
 
     .box11{
         display: flex;
-        margin-top: 40px;
+        margin-top: 10px;
     }
 
     .box111{
@@ -206,23 +211,21 @@
     }
 
     .btn_div{
-        width: 150px ;
-        margin: auto;
+        width: fit-content;
+        /* margin: auto; */
     }
 
     .rbtn{
         font-family: 'CYBORG';
-        padding: .6rem 1.5rem; 
+        padding: 5px 10px; 
         font-size: 18px;
         background-color: #001C55;    
         border: none;
         border-radius: 7px;
         box-shadow: 9px 7px 32px -11px #72351C;
-        font-size: 1.5rem;
-        font-weight: 900;   
         transition: all .3s ease-in-out 0s; 
         margin-top: 20px;  
-        transform: rotate(-3.6deg);           
+        transform: rotate(-3.6deg);          
     }
 
     .rbtn:hover{
@@ -248,8 +251,6 @@
         /* font-family: 'CYBORG'; */
         font-family: 'Exo Space';
         margin-top: 0;
-
-        padding-top: 30px;
         padding-bottom: 30px;
         
     }
@@ -257,31 +258,26 @@
         width: fit-content;
         margin: auto;
         text-align: center;
+        padding-top: 20px;
     }
 
     .box21>h1{
         transform: rotate(-3.6deg);
         border-radius: 12px;
         padding: 0 10px;
-        /* color: #535461;
-        border: 4px solid #535461; */
         color: #001C55;
         border: 4px solid #001C55;
-
-        /* text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
     }
 
     .box22{
         width: 70%;
         margin: auto;
-        margin-top: 50px;
+        margin-top: 40px;
         background-color: #001C55;
         border: 1px solid #989292;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
         border-radius: 12px;
-        /* color: white; */
         
-
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -555,8 +551,7 @@
     .skills-list div{
         background : #E0E0E0;
         padding: 40px;
-        font-size: 13px;
-        font-weight: 300;
+        font-size: 15px;
         border-radius: 10px;
         transition: background 0.5s,transform 0.5s;
     }
@@ -626,6 +621,13 @@
         }
         .flip-card{
             width: 350px;
+        }
+
+        .box01>h1, .box21>h1, .box31>h1, .box41>h1{
+            font-size: 20px;
+        }
+        .box01{
+            margin-bottom: 0;
         }
     }
 
