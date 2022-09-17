@@ -9,43 +9,6 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/6f3f4b23f1.js" crossorigin="anonymous"></script>
 
-
-
-
-    <style>
-        .header {
-            position: fixed;
-            top: 0;
-            z-index: 1;
-            width: 100%;
-        }
-
-        .progress-bar {
-            height: 10px;
-            background: #001C55;
-            width: 0%;
-        }
-
-
-    </style>
-
-
-
-<style>
-    .reveal{
-  position: relative;
-  transform: translateY(150px);
-  opacity: 0;
-  transition: 1s all ease;
-}
-
-.reveal.active{
-  transform: translateY(0);
-  opacity: 1;
-}
-
-</style>
-
 </head>
 <body>
 
@@ -55,9 +18,7 @@
         </div>
     </div>
 
-    <!-- <nav>
-        <h1>hello</h1>
-    </nav> -->
+
 
     <div class="box1" id="box1">
         <div class="box10">
@@ -108,10 +69,11 @@
     </div>
 
 
+
     <div class="box0">
-        <div class="box01">
+        <!-- <div class="box01">
             <h1 class="sub-title">About Me</h1>
-        </div>
+        </div> -->
 
 
         <div id="about">
@@ -281,10 +243,6 @@
       
 
 
-
-      
-
-
     <div class="box4 reveal" id="box4 skills">
 
         <div class="container">
@@ -316,7 +274,6 @@
         </div>
 
     </div>
-
 
 
 
@@ -423,75 +380,75 @@
 
     </div>
 
-    <div class="box5">
+
+
+    <div class="box5 reveal">
+        <div class="box51">
+            <h1>CONTACT</h1>
+        </div>
+
+        <div class="box52">
+
+            <div class="box511">
+
+                <h1 class="box5h1">Reach Out to me!</h1>
+
+                <h3 class="box5h3">DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL.</h3>
+
+                
+
+                <div class="box5111">
+                    <p><i class="fa-solid fa-location-dot"></i> Barmer, Rajasthan</p>
+                </div>
+                <div class="box5111">
+                    <p><i class="fa-solid fa-envelope"></i> dineshjangid538@gmail.com</p>
+                </div>
+                <div class="box5111">
+                    <p><i class="fa-solid fa-phone"></i> +91-8696700323</p>
+                </div>
+
+                <div class="box5112">
+                    <div class="ico"><a href="https://github.com/dineshjangid03/"><i class="fa-brands fa-github"></i></a></div>
+                    <div class="ico"><a href="https://www.linkedin.com/in/dineshjangid03/"><i class="fa-brands fa-linkedin"></i></a></div>
+                    <div class="ico"><a href="mailto:dineshjangid538@gmail.com"><i class="fa-solid fa-envelope"></i></a></div>
+                    <div class="ico"><a href="tel:+918696700323"><i class="fa-solid fa-phone"></i></a></div>
+                    <div class="ico"><a href="https://www.instagram.com/dineshjangid03/"><i class="fa-brands fa-square-instagram"></i></a></div>
+                </div>
+
+                
+
+            </div>
+
+                        
+            <div class="box512">
+                <img class="img51" src="image/img2.jpg" alt="">
+                <div class="btn_div">
+                    <button class="rbtn"><a download="" href="pdf/DINESH_KUMAR_Resume.pdf">Resume</a></button>
+                </div>
+            </div>
+
+        </div>
+        
+
 
     </div>
 
 
 
+    <div class="box6">
+        <p>Built From Scratch With <i class="fa-sharp fa-solid fa-heart"></i> by Dinesh</p>
+        <!-- <p>© Copyright 2022, All Rights Reserved.</p> -->
+    </div>
 
 
 
+    <div >
+        <a href="#box1" class="arrup"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+          </svg></a>
+    </div>
 
-    <a href="#box1" id="bb1"></a>
-    <a href="#box2" id="bb2"></a>
-    <a href="#box3" id="bb3"></a>
-    <a href="#box4" id="bb4"></a>
 
-    
 </body>
 </html>
-<script>
-
-window.onscroll = function() {
-    myFunction()
-};
-
-function myFunction() {
-  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  var scrolled = (winScroll / height) * 100;
-  document.getElementById("myBar").style.width = scrolled + "%";
-}
-
-</script>
-
-<script>
-
-function reveal() {
-  var reveals = document.querySelectorAll(".reveal");
-
-  for (var i = 0; i < reveals.length; i++) {
-    var windowHeight = window.innerHeight;
-    var elementTop = reveals[i].getBoundingClientRect().top;
-    var elementVisible = 150;
-
-    if (elementTop < windowHeight - elementVisible) {
-      reveals[i].classList.add("active");
-    } else {
-      reveals[i].classList.remove("active");
-    }
-  }
-}
-
-window.addEventListener("scroll", reveal);
-
-
-</script>
-
-<script>
-    // about box script
-let tablinks = document.getElementsByClassName("tab-links");
-let tabcontents = document.getElementsByClassName("tab-contents");
-
-function opentab(tabname){
-    for(let i of tablinks){
-        i.classList.remove("active-link");
-    }
-    for(let i of tabcontents){
-        i.classList.remove("active-tab");
-    }
-    event.currentTarget.classList.add("active-link");
-    document.getElementById(tabname).classList.add("active-tab");
-}
-</script>
+<script src="script.js"></script>
