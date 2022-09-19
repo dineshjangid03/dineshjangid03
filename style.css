@@ -628,6 +628,7 @@
     }
     .box5111{
         margin-top: 10px;
+        color: #001C55;
         /* text-align: center; */
     }
     .box5112{
@@ -690,7 +691,7 @@
 
 /* =============media query============= */
 
-    @media screen and (min-width: 200px) and (max-width: 399px){
+    @media screen and (min-width: 200px) and (max-width: 400px){
         .box10>span{
             font-size: 15px;
         }
