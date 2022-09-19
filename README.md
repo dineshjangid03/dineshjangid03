@@ -1,7 +1,11 @@
-                                                        
+     
+     
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=dineshjangid03&label=Profile%20views&color=0e75b6&style=flat" alt="dineshjangid03" /> </p>
+
+
 ![MasterHead](https://qph.fs.quoracdn.net/main-qimg-fa7b4bdc3b2f73e749e5c2c646d4ae13)
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
-<img src="https://readme-typing-svg.herokuapp.com?font=Architects+Daughter&amp;color=ff0000&amp;size=20&amp;lines=Hey!+It's+Dinesh+Kumar!;Learning+Java+Back-end+Development...👨🏻‍💻;" style="width: 100%;">
+<img src="https://readme-typing-svg.herokuapp.com?font=Architects+Daughter&amp;color=ff0000&amp;size=20&amp;lines=Hey!+It's+Dinesh+Kumar!;Learning+Full+Stack+Web+Development...👨🏻‍💻;" style="width: 100%;">
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
 <h1 align="center"> 😇(Hello everyone) 👋</h1>
 <h3 align="center">A passionate Full Stack Web Developer</h3>
@@ -9,10 +13,10 @@
 <img align="right" alt="Coding" width="400" src="https://storage.googleapis.com/media.helloumi.com/125042/channels/FJ3DZITWCY268043HGFACIP9CFUA9XM6.gif">
                                                        
 - 🔭 I’m currently working on **MySkill😄**
-- 🌱 I’m currently learning **Masai School (Backend Developer)**
+- 🌱 I’m currently learning at **Masai School**
 - 💬 Ask me about **Java**
-- 👨‍💻 All of my projects are available at [My Portfolio](https://dineshjangid03.github.io/)
--  📄 Know about my experiences [My Resume](https://drive.google.com/file/d/17zFFKLqxoxZaaCngdOtgJayDLnoq6Kxm/view?usp=sharing)
+- 👨‍💻 This is [My Portfolio](https://dineshjangid03.github.io/)
+-  📄 This is [My Resume](https://drive.google.com/file/d/17zFFKLqxoxZaaCngdOtgJayDLnoq6Kxm/view?usp=sharing)
 - 📫 How to reach me: ...**dineshjangid538@gmail.com**
 
 
@@ -20,7 +24,7 @@
 
                                                        
 <h2><i>My GitHub Stats</i></h2>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=dineshjangid03&label=Profile%20views&color=0e75b6&style=flat" alt="dineshjangid03" /> </p>
+
 
 <p>
     <img align="left" src="https://github-readme-stats.vercel.app/api?username=dineshjangid03&show_icons=true&locale=en&theme=dark" alt="dineshjangid03"  height="139" />
@@ -35,6 +39,11 @@
 
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
+
+
+
+
+
 
 
 
