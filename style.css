@@ -690,6 +690,160 @@
 
 
 
+
+    /* ==================css for box 7================== */
+
+    .box7{
+        font-family: 'Exo Space';
+        color: #001C55;
+        padding: 20px 40px;
+        width: 700px;
+        margin: auto;
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
+        gap: 20px;
+    }
+
+    .box712{
+        margin-top: 10px;
+    }
+
+    .bold{
+        font-weight: bold;
+    }
+
+    .pieContainer {
+        height: 100px;
+        width: 100px;
+        position: relative;
+        margin-top: 10px;
+    }
+
+    .pieBackground{
+        background-color: #333;
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        
+        -webkit-box-shadow:  0px 0px 5px 1px rgba(0, 0, 0, .75);      
+        box-shadow:  0px 0px 5px 1px rgba(0, 0, 0, .75);
+    }
+
+    .stat-circle-cover {
+        position: absolute;
+        top: 10%;
+        right: 10%;
+        
+        background-color: #E0E0E0;
+        height: 80%;
+        width: 80%;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        
+    }
+
+    .stat-circle-cover span.stat-number {
+        text-align: center;
+        vertical-align: middle;
+        width: 100%;
+        line-height: 80px;
+        color: #001C55;
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .danny {
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        clip: rect(0px, 50px, 100px, 0px);
+    }
+
+    .hold {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        clip: rect(0px, 100px, 100px, 50px);
+    }
+
+
+    #pieSlice99_1 .danny {
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+
+    #pieSlice99_2 {
+        -webkit-transform:rotate(180deg);
+        -moz-transform:rotate(180deg);
+        -o-transform:rotate(180deg);
+        transform:rotate(180deg);
+    }
+
+    #pieSlice99_2 {
+        -webkit-transform:rotate(180deg);
+        -moz-transform:rotate(180deg);
+        -o-transform:rotate(180deg);
+        transform:rotate(180deg);
+    }
+
+    #pieSlice99_2 .danny {
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        transform: rotate(180deg);
+        
+    }
+
+    .Col1{
+        background-color: #001C55;
+    }
+    .Col2{
+        background-color: #72351C;
+    }
+    .Col3{
+        background-color: #535461;
+    }
+    .Col4{
+        background-color: rgb(152, 100, 57);
+    }
+    .Col5{
+        background-color: rgb(85, 62, 90);
+    }
+
+
+
+    /* ================css for box 8=============== */
+
+    .contrib-column>.contrib-number{
+        font-size: 16px;
+    }
+    .box8>.calendar{
+        min-height: auto;
+        max-height: auto;
+    }
+    .box8{
+        margin-top: 20px;
+        padding: 20px;
+    }
+
+        
+
 /* =============media query============= */
 
     @media screen and (min-width: 200px) and (max-width: 400px){
@@ -750,6 +904,14 @@
             margin-top: 17px;
         }
 
+        .box7{
+            width: 100%;
+        }
+
+        .box8>.calendar>.contrib-column{
+            display: none;
+        }
+
     }
 
     @media screen and (min-width: 400px) and (max-width: 520px) { 
@@ -798,6 +960,14 @@
             margin-top: 17px;
         }
 
+        .box7{
+            width: 100%;
+        }
+
+        .box8>.calendar>.contrib-column{
+            display: none;
+        }
+
     }
 
     .arrup{
@@ -836,6 +1006,14 @@
         }
         .box52{
             flex-direction:column-reverse;
+        }
+
+        .box7{
+            width: 100%;
+        }
+
+        .box8>.calendar>.contrib-column{
+            display: none;
         }
 
     }
