@@ -22,34 +22,6 @@
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
 
-                                                       
-<h2><i>My GitHub Stats</i></h2>
-
-
-<p>
-    <img align="left" src="https://github-readme-stats.vercel.app/api?username=dineshjangid03&show_icons=true&locale=en&theme=dark" alt="dineshjangid03"  height="139" />
-    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dineshjangid03&layout=compact&exclude_repo=Lybrate-Website-Clone-Version-2.0,Lybrate-Website-Clone,Adidas-Clone&hide=Shell&border_radius=0&theme=dark" alt="dineshjangid03" height="139" />
-</p>
-
-<img src="https://activity-graph.herokuapp.com/graph?username=dineshjangid03&theme=xcode" height ="307"/>
-
-
-
-
-
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
-
-
-
-
-
-
-
-
-
-
-
 <div align="center">  
                                                          
 <h3 align="left">Connect with me</h3>
@@ -64,7 +36,20 @@
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
 
-                                                          
+                                                       
+<h2><i>My GitHub Stats</i></h2>
+
+
+<p>
+    <img align="left" src="https://github-readme-stats.vercel.app/api?username=dineshjangid03&show_icons=true&locale=en&theme=dark" alt="dineshjangid03"  height="139" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dineshjangid03&layout=compact&exclude_repo=Lybrate-Website-Clone-Version-2.0,Lybrate-Website-Clone,Adidas-Clone&hide=Shell&border_radius=0&theme=dark" alt="dineshjangid03" height="139" />
+</p>
+
+<img src="https://activity-graph.herokuapp.com/graph?username=dineshjangid03&theme=xcode" height ="307"/>
+
+
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
 
 <h3 align="left">🛠 &nbsp;Tech Stack </h3>
 
