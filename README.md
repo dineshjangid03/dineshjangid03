@@ -3,18 +3,19 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=dineshjangid03&label=Profile%20views&color=0e75b6&style=flat" alt="dineshjangid03" /> </p>
 
 
-![MasterHead](https://qph.fs.quoracdn.net/main-qimg-fa7b4bdc3b2f73e749e5c2c646d4ae13)
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
+<!-- ![MasterHead](https://qph.fs.quoracdn.net/main-qimg-fa7b4bdc3b2f73e749e5c2c646d4ae13) -->
+
+<!-- <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png"> -->
 <img src="https://readme-typing-svg.herokuapp.com?font=Architects+Daughter&amp;color=ff0000&amp;size=20&amp;lines=Hey!+It's+Dinesh+Kumar!;Learning+Full+Stack+Web+Development...👨🏻‍💻;" style="width: 100%;">
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
-<h1 align="center"> 😇(Hello everyone) 👋</h1>
+<!-- <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png"> -->
+<!-- <h1 align="center"> 😇(Hello everyone) 👋</h1> -->
 <h3 align="center">A passionate Full Stack Web Developer</h3>
 
-<img align="right" alt="Coding" width="400" src="https://storage.googleapis.com/media.helloumi.com/125042/channels/FJ3DZITWCY268043HGFACIP9CFUA9XM6.gif">
+<!-- <img align="right" alt="Coding" width="400" src="https://storage.googleapis.com/media.helloumi.com/125042/channels/FJ3DZITWCY268043HGFACIP9CFUA9XM6.gif"> -->
                                                        
-- 🔭 I’m currently working on **MySkill😄**
-- 🌱 I’m currently learning at **Masai School**
-- 💬 Ask me about **Java**
+<!-- - 🔭 I’m currently working on **MySkill😄** -->
+<!-- - 🌱 I’m currently learning at **Masai School** -->
+<!-- - 💬 Ask me about **Java** -->
 - 👨‍💻 This is [My Portfolio](https://dineshjangid03.github.io/)
 -  📄 This is [My Resume](https://drive.google.com/file/d/17zFFKLqxoxZaaCngdOtgJayDLnoq6Kxm/view?usp=sharing)
 - 📫 How to reach me: ...**dineshjangid538@gmail.com**
@@ -26,11 +27,11 @@
                                                          
 <h3 align="left">Connect with me</h3>
 <p align="center">
+<a href="https://www.linkedin.com/in/dineshjangid03/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="dineshjangid03" height="30" width="40" /></a>	
 <a href="https://twitter.com/dineshjangid03" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="dineshjangid03" height="30" width="40" /></a>
-<a href="https://www.linkedin.com/in/dineshjangid03/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="dineshjangid03" height="30" width="40" /></a>
-<a href="https://fb.com/dineshjangid03" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="dineshjangid03" height="30" width="40" /></a>
-<a href="https://instagram.com/dineshjangid03" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="dineshjangid03" height="30" width="40" /></a>
+<!-- <a href="https://fb.com/dineshjangid03" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="dineshjangid03" height="30" width="40" /></a> -->
 <a href="https://www.leetcode.com/dineshjangid03" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="dineshjangid03" height="30" width="40" /></a>
+<a href="https://instagram.com/dineshjangid03" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="dineshjangid03" height="30" width="40" /></a>
 </p>
 </div>  
 
