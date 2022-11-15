@@ -31,7 +31,7 @@
 <a href="https://twitter.com/dineshjangid03" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="dineshjangid03" height="30" width="40" /></a>
 <!-- <a href="https://fb.com/dineshjangid03" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="dineshjangid03" height="30" width="40" /></a> -->
 <a href="https://www.leetcode.com/dineshjangid03" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="dineshjangid03" height="30" width="40" /></a>
-<a href="https://instagram.com/dineshjangid03" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="dineshjangid03" height="30" width="40" /></a>
+<!-- <a href="https://instagram.com/dineshjangid03" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="dineshjangid03" height="30" width="40" /></a> -->
 </p>
 </div>  
 
