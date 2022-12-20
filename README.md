@@ -17,7 +17,7 @@
 <!-- - 🌱 I’m currently learning at **Masai School** -->
 <!-- - 💬 Ask me about **Java** -->
 - 👨‍💻 This is [My Portfolio](https://dineshjangid03.github.io/)
--  📄 This is [My Resume](https://drive.google.com/file/d/17zFFKLqxoxZaaCngdOtgJayDLnoq6Kxm/view?usp=sharing)
+<!-- -  📄 This is [My Resume](https://drive.google.com/file/d/17zFFKLqxoxZaaCngdOtgJayDLnoq6Kxm/view?usp=sharing) -->
 - 📫 How to reach me: ...**dineshjangid538@gmail.com**
 
 
