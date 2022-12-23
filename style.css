@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 @font-face {
     font-family: 'Exo Space';
     src: url('./font/Exo_space.ttf');
@@ -19,6 +20,7 @@
         padding: 0;
         margin: 0;
         box-sizing: border-box; 
+        font-family: 'Baloo Bhai 2', cursive;
     }
 
     html {
@@ -71,7 +73,7 @@
     .box0{
         /* background-color: #E0E0E0; */
         padding: 30px;
-        font-family: 'Exo Space';
+        /* font-family: 'Exo Space'; */
         /* font-family: 'CYBORG'; */
     }
 
@@ -198,7 +200,7 @@
     }
 
     .box10 span {
-        font-family: 'Exo Space';
+        /* font-family: 'Exo Space'; */
         display: inline-block;
         /* text-transform: uppercase; */
         animation: box10 2s infinite;
@@ -224,7 +226,7 @@
 
     .box111{
         width: 60%;
-        font-family: 'Exo Space';
+        /* font-family: 'Exo Space'; */
         font-size: 28px;
         text-align: left;
         padding: 40px;
@@ -247,7 +249,7 @@
     }
 
     .rbtn{
-        font-family: 'CYBORG';
+        /* font-family: 'CYBORG'; */
         padding: 5px 10px; 
         font-size: 18px;
         background-color: #001C55;    
@@ -280,7 +282,7 @@
 
     .box2{
         /* font-family: 'CYBORG'; */
-        font-family: 'Exo Space';
+        /* font-family: 'Exo Space'; */
         margin-top: 0;
         padding-bottom: 30px;
         
@@ -387,7 +389,7 @@
 
     .box3 {
         /* font-family: 'CYBORG'; */
-        font-family: 'Exo Space';
+        /* font-family: 'Exo Space'; */
         /* padding: 40px; */
         width: 99%;
         margin: auto;
@@ -487,7 +489,17 @@
         padding: 15px;
       }
 
+      .flip-card-back> p:nth-child(3){
+        font-weight: bolder;
+      }
+
       .icons>a>i{
+        color: white;
+        padding: 10px 10px;
+        background: #001C55;
+        border-radius: 50%;
+      }
+      #git_link>i{
         color: white;
         padding: 10px 10px;
         background: #001C55;
@@ -550,7 +562,7 @@
     .box4 {
         padding: 40px;
         /* font-family: 'CYBORG'; */
-        font-family: 'Exo Space';
+        /* font-family: 'Exo Space'; */
         color: #001C55;
     }
     .box41{
@@ -601,7 +613,7 @@
 /* ====================== css for box5 ========================= */
 /* ====================== css for box5 ========================= */
     .box5{
-        font-family: 'Exo Space';
+        /* font-family: 'Exo Space'; */
         width: 100%;
         /* margin: auto; */
         padding: 20px 40px;
@@ -672,7 +684,7 @@
 /* ====================== css for box6 ========================= */
 
     .box6{
-        font-family: 'Exo Space';
+        /* font-family: 'Exo Space'; */
         padding: 20px;
         width: 100%;
         display: flex;
@@ -694,7 +706,7 @@
     /* ==================css for box 7================== */
 
     .box7{
-        font-family: 'Exo Space';
+        /* font-family: 'Exo Space'; */
         color: #001C55;
         padding: 20px 40px;
         width: 700px;
@@ -836,10 +848,36 @@
     .box8>.calendar{
         min-height: auto;
         max-height: auto;
+        /* font-family: 'Exo Space'; */
+    }
+    .js-calendar-graph-svg{
+        padding: 0 20px;
     }
     .box8{
         margin-top: 20px;
         padding: 20px;
+    }
+
+    /* .ContributionCalendar-day {
+        --color-calendar-graph-day-bg: #E0E0E0;
+        --color-calendar-graph-day-L1-bg: #af6142;
+        --color-calendar-graph-day-L2-bg: #974525;
+        --color-calendar-graph-day-L3-bg: #773014;
+        --color-calendar-graph-day-L4-bg: #571a01;
+    } */
+
+    .github_stat{
+        width: 99%;
+        margin: auto;
+        margin-top: 20px;
+        text-align: center;
+        align-items: center;
+    }
+    .github_stat>img{
+        max-width: 100%;
+    }
+    .box8>.calendar>.contrib-column{
+        display: none;
     }
 
         
@@ -1039,7 +1077,7 @@
 
     /* ===========css for navbar=========== */
     .top-nav {
-    font-family: 'Exo Space';
+    /* font-family: 'Exo Space'; */
     width: 100%;
     height: 50px;
     display: flex;
