@@ -14,16 +14,6 @@
 
 <!-- <img align="right" alt="Coding" width="400" src="https://storage.googleapis.com/media.helloumi.com/125042/channels/FJ3DZITWCY268043HGFACIP9CFUA9XM6.gif"> -->
                                                        
-<!-- - 🔭 I’m currently working on **MySkill😄** -->
-<!-- - 🌱 I’m currently learning at **Masai School** -->
-<!-- - 💬 Ask me about **Java** -->
-<!-- - 👨‍💻 This is [My Portfolio](https://dineshjangid03.github.io/) -->
-<!-- -  📄 This is [My Resume](https://drive.google.com/file/d/17zFFKLqxoxZaaCngdOtgJayDLnoq6Kxm/view?usp=sharing) -->
-
-  
-
-<!-- ### <div align="center">I'm Dinesh, a full-time full-stack freelance developer 👨‍💻 working remotely since 2013 🚀</div>   -->
-  
 
 - 🔭 I’m currently working on [shopy](https://github.com/dineshjangid03/e-commerce_API)  
   
@@ -65,7 +55,19 @@
 <h2><i>My GitHub Stats</i></h2>
 
 
-<p>
+<div>
+  <img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=dineshjangid03&theme=radical" alt="Naveen Saini" height="250px" width="47%" />
+  <img align="right" src="https://github-readme-stats.vercel.app/api?username=dineshjangid03&show_icons=true&theme=radical" height="255px" width="47%"/>
+<div>
+  </br>
+  
+<div>
+  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dineshjangid03&theme=radical&langs_count=8" alt="Samruddhi" height="260px" width="25%" />
+
+<div>
+
+
+<!-- <p>
 <img align="left" src="https://github-readme-stats.vercel.app/api?username=dineshjangid03&show_icons=true&locale=en&theme=dark" alt="dineshjangid03"  height="139" />
 
 <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dineshjangid03&layout=compact&exclude_repo=Lybrate-Website-Clone-Version-2.0,Lybrate-Website-Clone,Adidas-Clone&hide=Shell&border_radius=0&theme=dark" alt="dineshjangid03" height="139" />
@@ -73,7 +75,7 @@
 </p>
 
 <img src="https://activity-graph.herokuapp.com/graph?username=dineshjangid03&theme=xcode" height ="307"/>
-
+ -->
 
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
@@ -81,10 +83,7 @@
 <h3 align="left">🛠 &nbsp;Tech Stack </h3>
 
 <div align="center">
-
 	
-  
- 
 <!--   <img style="margin: 10px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" height="50" /> -->
   <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/java-original-wordmark.svg" alt="Java" height="50" />
   <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/springio-icon.svg" alt="Spring" height="50" />
