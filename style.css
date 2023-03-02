@@ -603,7 +603,6 @@
     .box51{
         width: fit-content;
         margin: auto;
-        /* text-align: center;   */
     }
     .box51>h1{
         padding: 5px;
@@ -623,7 +622,6 @@
     .box5111{
         margin-top: 10px;
         color: #001C55;
-        /* text-align: center; */
     }
     .box5112{
         display: flex; 
