@@ -627,7 +627,6 @@
         display: flex; 
         gap: 20px;
         margin-top: 20px;
-        /* justify-content: center; */
     }
     .ico>a>i{
         color: white;
@@ -650,7 +649,6 @@
     .box5h1{
         color: #001C55;
         font-size: 35px;
-        /* text-align: center; */
     }
     .box5h3{
         color: #535461;
@@ -663,7 +661,6 @@
 /* ====================== css for box6 ========================= */
 
     .box6{
-        /* font-family: 'Exo Space'; */
         padding: 20px;
         width: 100%;
         display: flex;
