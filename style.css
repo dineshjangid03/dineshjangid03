@@ -832,14 +832,6 @@
         padding: 20px;
     }
 
-    /* .ContributionCalendar-day {
-        --color-calendar-graph-day-bg: #E0E0E0;
-        --color-calendar-graph-day-L1-bg: #af6142;
-        --color-calendar-graph-day-L2-bg: #974525;
-        --color-calendar-graph-day-L3-bg: #773014;
-        --color-calendar-graph-day-L4-bg: #571a01;
-    } */
-
     .github_stat{
         width: 99%;
         margin: auto;
