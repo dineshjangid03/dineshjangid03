@@ -195,9 +195,7 @@
     }
 
     .box10 span {
-        /* font-family: 'Exo Space'; */
         display: inline-block;
-        /* text-transform: uppercase; */
         animation: box10 2s infinite;
         animation-delay: calc(.1s * var(--i));
         color: #001C55;
