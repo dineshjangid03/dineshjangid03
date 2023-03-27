@@ -219,7 +219,6 @@
 
     .box111{
         width: 60%;
-        /* font-family: 'Exo Space'; */
         font-size: 28px;
         text-align: left;
         padding: 40px;
@@ -242,7 +241,6 @@
     }
 
     .rbtn{
-        /* font-family: 'CYBORG'; */
         padding: 5px 10px; 
         font-size: 18px;
         background-color: #001C55;    
