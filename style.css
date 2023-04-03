@@ -416,7 +416,6 @@
         max-height: 100%;
         max-width: 100%;
         border-radius: 10px;
-        /* transition: transform .5s ease; */
         transition: 1s ease;
     }
 
@@ -547,8 +546,6 @@
 
     .box4 {
         padding: 40px;
-        /* font-family: 'CYBORG'; */
-        /* font-family: 'Exo Space'; */
         color: #001C55;
     }
     .box41{
