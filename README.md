@@ -64,7 +64,7 @@
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
 
-<h2>📊 GitHub Stats</h2>
+<!-- <h2>📊 GitHub Stats</h2>
 
 <div>
   <img align="left"
@@ -72,7 +72,7 @@
        height="260px" width="40%" />
 </div>
 
-<br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/> -->
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
 
