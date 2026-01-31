@@ -62,21 +62,9 @@
 - 💼 **LinkedIn:** https://www.linkedin.com/in/dineshjangid03  
 - 🧠 **LeetCode:** https://www.leetcode.com/dineshjangid03  
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
+---
 
-<!-- <h2>📊 GitHub Stats</h2>
-
-<div>
-  <img align="left"
-       src="https://github-readme-stats.vercel.app/api/top-langs/?username=dineshjangid03&theme=radical&langs_count=8"
-       height="260px" width="40%" />
-</div>
-
-<br/><br/><br/><br/><br/><br/> 
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png"> -->
-
-<h2>🛠 Skills</h2>
+### 🛠 Skills
 
 <div align="center">
   <img src="https://profilinator.rishav.dev/skills-assets/java-original-wordmark.svg" height="50"/>
@@ -92,7 +80,7 @@
   <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" height="50"/>
 </div>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
+---
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Architects+Daughter&color=ff0000&size=20&lines=Thanks+for+visiting+my+profile!;Happy+Coding+🚀" style="width: 100%;">
 
