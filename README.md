@@ -72,9 +72,9 @@
        height="260px" width="40%" />
 </div>
 
-<br/><br/><br/><br/><br/><br/> -->
+<br/><br/><br/><br/><br/><br/> 
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png"> -->
 
 <h2>🛠 Skills</h2>
 
